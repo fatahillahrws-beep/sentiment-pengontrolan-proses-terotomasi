@@ -1,0 +1,10 @@
+streamlit>=1.46
+plotly>=5.20
+pandas>=2.0
+numpy
+scikit-learn
+
+# Hanya dibutuhkan untuk halaman "Latih IndoBERT" (halaman lain tetap jalan tanpa ini)
+torch
+transformers>=4.41
+accelerate
